@@ -163,7 +163,7 @@ body{
 }
 
 #about .left{
-    width: 30%;
+    width: 32%;
 }
 
 #about .main-banner .right{
@@ -325,4 +325,64 @@ body{
     background-color: black;
     color: white;
     transition: 0.5s;
+}
+
+
+/* trends */
+
+#trends{
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+#trends .main-tre{
+    /* max-width: 90%; */
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+}
+
+#trends .main-pre:nth-child(2)
+{
+    padding-left: 120px;
+}
+#trends .main-pre:nth-child(3)
+{
+    padding-left: 100px;
+}
+
+#trends h4{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#trends .t1{
+    padding-top: 25px;
+    display: flex;
+}
+
+#trends .tText{
+    padding-left: 20px;
+}
+
+#trends .tText span{
+    color: black;
+    font-size: 15px;
+}
+
+#trends .tText .star{
+    color: gold;
+    font-size: 7px;
+    padding-top: 10px;
+}
+
+#trends .tText .star i{
+    padding: 0px;
+}
+
+#trends .tText h4{
+    font-size: 17px;
+    color: black;
+    padding-top: 7px;
 }
