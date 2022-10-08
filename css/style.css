@@ -198,6 +198,11 @@ body {
     margin-top: 10px;
 }
 
+.Close{
+    display: none;
+}
+
+
 .megamenu-item:focus .megamenu, .megamenu-item:hover .megamenu{
     top: 241%;
     visibility: visible;
