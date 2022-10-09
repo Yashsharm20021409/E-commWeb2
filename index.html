@@ -13,14 +13,24 @@
 
 <body>
     <section id="header">
-        <div class="logo">
-            <img src="./images/logo-01.png" alt="" srcset="">
-        </div>
+        <a href=""><img src="./images/logo-01.png" alt="" srcset=""> </a>
         <nav id="navbar">
             <ul id="list">
+                <div class="mobileOnly">
+                    <div>
+                        <div class="i">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <!-- </div> -->
+                        <div class="t">
+                            <li><a href=""> Login/Register</a></li>
+                        </div>
+                    </div>
+                </div>
                 <li><a href="">Home</a></li>
                 <li class="megamenu-item"><a href="">Women's</a>
-                    <div class="megamenu2">
+                    <img src="./images/megamenu/down-arrow.png" alt="" srcset="" class="Open" id="openMegaMenu">  
+                    <div class="megamenu2" id="megaMenu">
                         <ul class="list1">
                             <li class="title">Women's Collection</li>
                             <li class="li1"><a href="shop.html">Dresses</a></li>
@@ -32,8 +42,9 @@
                         </ul>
                     </div>
                 </li>
-                <img src="./images/megamenu/down-arrow.png" alt="" srcset="" class="megaMenuOpen" >
+                <!-- <img src="./images/megamenu/down-arrow.png" alt="" srcset="" class="Open" > -->
                 <li class="megamenu-item"><a href="">Men's</a>
+                    <img src="./images/megamenu/down-arrow.png" alt="" srcset="" class="Open Open1">
                     <div class="megamenu1">
                         <ul class="list1">
                             <li class="title">Men's Collection</li>
@@ -47,10 +58,11 @@
                         </ul>
                     </div>
                 </li>
-                <img src="./images/megamenu/down-arrow.png" alt="" srcset="">
+                <!-- <img src="./images/megamenu/down-arrow.png" alt="" srcset="" class="Open"> -->
                 <li><a href="">About</a></li>
                 <li class="megamenu-item"><a href="">Shop</a>
-                    <div class="megamenu Close">
+                    <img src="./images/megamenu/down-arrow.png" alt="" srcset="" class="Open Open2">
+                    <div class="megamenu">
                         <ul class="list1">
                             <li class="title">Women's Collection</li>
                             <li class="li1"><a href="shop.html">Dresses</a></li>
@@ -82,17 +94,21 @@
                         </ul>
                     </div>
                 </li>
-                <img src="./images/megamenu/down-arrow.png" alt="" srcset="" class="Open">
+                <!-- <img src="./images/megamenu/down-arrow.png" alt="" srcset="" class="Open"> -->
                 <li><a href="">Blog</a></li>
                 <li><a href="">Contact</a></li>
+                <i id="closeMenu" class="fa-solid fa-xmark"></i>
             </ul>
         </nav>
         <div class="sideMenu">
-            <li><a href="">Login/Register</a></li>
+            <li class="LaptopOnly"><a href="">Login/Register</a></li>
             <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
             <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
             <li><a href="cart.html"><i class="fa-solid fa-bag-shopping cart"></i></a></li>
+            <i id="openMenu" class="fas fa-outdent"></i>
         </div>
+        <!-- <i id="openMenu" class="fa-solid fa-bars "></i> -->
+
     </section>
 
     <!-- About Section -->

@@ -85,6 +85,18 @@ body {
 
 /* Header-section */
 
+#openMenu{
+    display: none;
+}
+
+#closeMenu{
+    display: none;
+}
+
+.mobileOnly{
+    display: none;
+}
+
 #header {
     z-index: 1;
     display: flex;
@@ -198,12 +210,7 @@ body {
     margin-top: 10px;
 }
 
-.Close{
-    display: none;
-}
-
-
-.megamenu-item:focus .megamenu, .megamenu-item:hover .megamenu{
+#list img:focus .megamenu-item:focus .megamenu, .megamenu-item:hover .megamenu{
     top: 241%;
     visibility: visible;
     opacity: 1;
@@ -225,10 +232,17 @@ body {
 
 #list img {
     height: 12px;
-    margin-left: -6px;
+    margin-left: -11px;
     margin-right: 5px;
-    margin-top: 6px;
+    margin-top: 4px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+ #list .megamenu-item:hover img{ 
+    cursor: default; 
+    transform: rotate(180deg); 
+    transition: all 0.3s ease-in 0s; 
 }
 
 .megamenu .list1{
