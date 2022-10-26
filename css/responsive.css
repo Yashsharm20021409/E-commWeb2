@@ -386,13 +386,23 @@
     .p1 {
         padding: 40px 27px;
     }
-    .im1 h2 {
-        font-size: 40px;
-        margin-left: 30px;
+    .p1 .im1 h2 {
+        font-size: 32px;
+        margin-left: 22px;
+        /* margin-bottom: -5px; */
     }
-    .im1 p {
-        font-size: 22px;
-        margin-left: 30px;
+    .p1 .im1 p {
+        margin: 3px 0px 0px 22px
+    }
+    #about .leftBanner h2 {
+        font-size: 25px;
+    }
+    #about .leftBanner p {
+        font-size: 12px;
+        margin: 2px 0 17px 0;
+    }
+    #about .rightBanner h2{
+        padding-top: 25px;
     }
 }
 
@@ -400,6 +410,12 @@
 
 @media only screen and (max-width:525px)
 {
+    #about .leftBanner h2 {
+        font-size: 25px;
+    }
+    #about .leftBanner p {
+        font-size: 12px;
+    }
     #header a img{
         width: 81px;
         margin-left: -16px;
@@ -468,10 +484,10 @@
         padding: 6px 10px;
     }
     #trends .tText {
-        padding-left: 80px;
+        padding-left: 65px;
     }
     #trends .main-tre .main-pre .t1 .tImg img {
-        min-width: 135%;
+        min-width: 125%;
     }
     .discount__text__title {
         text-align: center;
@@ -486,12 +502,40 @@
         padding: 40px 27px;
     }
 
-    .im1 h2 {
-        font-size: 40px;
-        margin-left: 30px;
+    .p1 .im1 h2 {
+        font-size: 32px;
+        margin-left: 22px;
     }
-    .im1 p {
-        font-size: 22px;
-        margin-left: 30px;
+    .p1 .im1 p {
+        margin: 3px 0px 0px 22px
+    }
+    #about .leftBanner h2 {
+        font-size: 25px;
+    }
+    #about .leftBanner p {
+        font-size: 12px;
+        margin: 2px 0 17px 0;
+    }
+    #about .rightBanner h2{
+        padding-top: 25px;
+    }
+    #trends h4 {
+        font-size: 26px;
+    }
+
+
+
+    .services__item {
+        padding-left: 82px;
+    }
+
+    .services__item i {
+        font-size: 40px;
+    }
+    .services__item h6 {
+        font-size: 20px;
+    }
+    .services__item p {
+        font-size: 18px;
     }
 }
