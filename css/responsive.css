@@ -341,8 +341,16 @@
 
 @media only screen and (max-width:675px)
 {
+    #header a img{
+        width: 81px;
+        margin-left: -16px;
+    }
     .discount__pic img {
         width: 100%;
+    }
+
+    #newProduct .text h3 {
+        margin-left: 6px;
     }
 
     #newProduct .text ul li {
@@ -365,7 +373,7 @@
     }
 
     #trends .main-tre .main-pre .t1 .tImg img{
-        min-width: 144%;
+        min-width: 137%;
     }
 
     #trends .tText {
@@ -375,6 +383,17 @@
     #trends .main-pre:nth-child(2) {
         padding-top: 60px;
     }
+    .p1 {
+        padding: 40px 27px;
+    }
+    .im1 h2 {
+        font-size: 40px;
+        margin-left: 30px;
+    }
+    .im1 p {
+        font-size: 22px;
+        margin-left: 30px;
+    }
 }
 
 
@@ -383,9 +402,13 @@
 {
     #header a img{
         width: 81px;
+        margin-left: -16px;
     }
     .row {
         justify-content: flex-start;
+    }
+    #newProduct .text h3 {
+        margin-left: 5px;
     }
 
     .countdown__item span {
@@ -455,5 +478,20 @@
         position: relative;
         /* z-index: 1; */
         margin-bottom: 36px;
+    }
+    #newProduct .text h3 {
+        margin-left: 6px;
+    }
+    .p1 {
+        padding: 40px 27px;
+    }
+
+    .im1 h2 {
+        font-size: 40px;
+        margin-left: 30px;
+    }
+    .im1 p {
+        font-size: 22px;
+        margin-left: 30px;
     }
 }
