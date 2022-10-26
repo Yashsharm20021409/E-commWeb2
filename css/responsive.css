@@ -246,7 +246,204 @@
         visibility: visible;
         opacity: 1;
     }  */
+
+    .services {
+        padding-top: 40px;
+    }
+    .col-lg-3 {
+        padding-top: 18px;
+    }
+
+    #footer .Foot {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    #footer .Foot .right {
+        position: relative;
+        padding-top: 17px;
+        /* width: 16%; */
+        margin-right: 0px;
+    }
+
+    #footer .Col {
+        padding-left: 0px;
+    }
+    #footer .left{
+        justify-content: space-between;
+    }
+
+    #footer .Foot .right input {
+        width: 73%;
+        padding: 16px 45px;
+        border-radius: 10px;
+    }
+
+    #trends .main-pre {
+        flex-wrap: wrap;
+    }
+
+    #trends .main-tre {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #trends .main-pre:nth-child(2) {
+        padding-left: 0px;
+    }
+    #trends .main-pre:nth-child(3) {
+        padding-left: 0px;
+        padding-top: 60px;
+    }
+}
+
+@media only screen and (max-width:780px)
+{
+
+
+    #about .rightBanner .im1 {
+        width: 100%;
+    }
+    #about .rightBanner .im1:nth-child(2) {
+        margin-left: 0px;
+    }
+    #about .rightBanner .im1:nth-child(4) {
+        margin-left: 0px;
+    }
+
+    #newProduct .text
+    {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #newProduct .text h3{
+        margin-left: 12px;
+    }
+    #newProduct .text ul li {
+        padding: 20px 17px;
+    }
+
+
+    /* footer */
+    .copyrightMain {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px; 
+        margin-right: 0px;
+    }
+
+    .copyLeft {
+        margin-left: 0px;
+    }
 }
 
 
 /* For small mobile in header maintain size of logo and size of i */
+
+@media only screen and (max-width:675px)
+{
+    .discount__pic img {
+        width: 100%;
+    }
+
+    #newProduct .text ul li {
+        padding: 16px 10px;
+    }
+
+    #trends .tText span {
+        font-size: 18px;
+    }
+
+    #trends .tText .star {
+        font-size: 9px;
+    }
+
+    #trends .tText h4 {
+        font-size: 20px;
+    }
+    #trends h4 {
+        font-size: 23px;
+    }
+
+    #trends .main-tre .main-pre .t1 .tImg img{
+        min-width: 144%;
+    }
+
+    #trends .tText {
+        padding-left: 92px;
+    }
+
+    #trends .main-pre:nth-child(2) {
+        padding-top: 60px;
+    }
+}
+
+
+
+@media only screen and (max-width:525px)
+{
+    #header a img{
+        width: 81px;
+    }
+    .row {
+        justify-content: flex-start;
+    }
+
+    .countdown__item span {
+        font-size: 18px;
+    }
+    .countdown__item p {
+        font-size: 8px;
+    }
+    .discount__text__title h2 {
+        font-size: 44px;
+    }
+
+    /* .services .container .row{
+        display: flex;
+        flex-direction: column;
+    } */
+
+    #footer .left {
+        display: contents;
+    }
+
+    .col-lg-3 {
+        padding-left: 0px;
+    }
+
+    .services .container .row {
+        /* display: flex; */
+        /* flex-direction: column; */
+        justify-content: center;
+        text-align: center;
+    }
+
+    .services__item {
+        display: flex;
+        flex-direction: column;
+        /* padding-left: 5px; */
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .services__item i {
+        font-size: 66px;
+        color: #ca1515;
+        /* position: absolute; */
+        left: 0;
+        top: 4px;
+    }
+
+    .services__item h6 {
+        color: #111111;
+        font-weight: 600;
+        margin-bottom: 5px;
+        font-size: 29px;
+        padding-top: 14px;
+    }
+    .services__item p {
+        margin-bottom: 0;
+        font-size: 22px;
+        line-height: 3px;
+        margin: 0 0 10px 0;
+    }
+}
