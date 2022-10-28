@@ -331,6 +331,10 @@
     .copyLeft {
         margin-left: 0px;
     }
+
+    #footer .Foot .right input {
+        width: 100%;
+    }
 }
 
 
@@ -407,6 +411,10 @@
     #header .sideMenu li a {
         margin-left: 27px;
         margin-right: -2px;
+    }
+    
+    #footer .Foot .right input {
+        width: 100%;
     }
 }
 
@@ -548,5 +556,9 @@
     }
     #header .sideMenu i {
         margin-right: -26px;
+    }
+    
+    #footer .Foot .right input {
+        width: 100%;
     }
 }
