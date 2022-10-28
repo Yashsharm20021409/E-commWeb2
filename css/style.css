@@ -768,7 +768,7 @@ body {
     /* position: relative; */
     border: 1px solid lightgray;
     background-color: white;
-    /* color: white; */
+    outline: none;
 
 }
 
