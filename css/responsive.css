@@ -247,6 +247,7 @@
     .services {
         padding-top: 40px;
     }
+
     .col-lg-3 {
         padding-top: 18px;
     }
@@ -256,6 +257,7 @@
         display: flex;
         flex-direction: column;
     }
+
     #footer .Foot .right {
         position: relative;
         padding-top: 17px;
@@ -266,7 +268,8 @@
     #footer .Col {
         padding-left: 0px;
     }
-    #footer .left{
+
+    #footer .left {
         justify-content: space-between;
     }
 
@@ -284,37 +287,47 @@
         justify-content: space-between;
         flex-wrap: wrap;
     }
+
     #trends .main-pre:nth-child(2) {
         padding-left: 0px;
     }
+
     #trends .main-pre:nth-child(3) {
         padding-left: 0px;
         padding-top: 60px;
     }
+
+
+
+    /* Blog Page */
+
+    #blog {
+        padding: 98px 76px 0px 110px;
+    }
 }
 
-@media only screen and (max-width:780px)
-{
-
-
+@media only screen and (max-width:780px) {
     #about .rightBanner .im1 {
         width: 100%;
     }
+
     #about .rightBanner .im1:nth-child(2) {
         margin-left: 0px;
     }
+
     #about .rightBanner .im1:nth-child(4) {
         margin-left: 0px;
     }
 
-    #newProduct .text
-    {
+    #newProduct .text {
         flex-direction: column;
         flex-wrap: wrap;
     }
-    #newProduct .text h3{
+
+    #newProduct .text h3 {
         margin-left: 12px;
     }
+
     #newProduct .text ul li {
         padding: 20px 17px;
     }
@@ -324,7 +337,7 @@
     .copyrightMain {
         display: flex;
         flex-direction: column;
-        margin-left: 0px; 
+        margin-left: 0px;
         margin-right: 0px;
     }
 
@@ -335,17 +348,26 @@
     #footer .Foot .right input {
         width: 100%;
     }
+
+
+
+    /* Blog Page */
+
+
+    #blog {
+        padding: 92px 17px 0px 83px;
+    }
 }
 
 
 /* For small mobile in header maintain size of logo and size of i */
 
-@media only screen and (max-width:675px)
-{
-    #header a img{
+@media only screen and (max-width:675px) {
+    #header a img {
         width: 87px;
         margin-left: -20px;
     }
+
     .discount__pic img {
         width: 100%;
     }
@@ -369,11 +391,12 @@
     #trends .tText h4 {
         font-size: 20px;
     }
+
     #trends h4 {
         font-size: 23px;
     }
 
-    #trends .main-tre .main-pre .t1 .tImg img{
+    #trends .main-tre .main-pre .t1 .tImg img {
         min-width: 137%;
     }
 
@@ -384,61 +407,86 @@
     #trends .main-pre:nth-child(2) {
         padding-top: 60px;
     }
+
     .p1 {
         padding: 40px 27px;
     }
+
     .p1 .im1 h2 {
         font-size: 32px;
         margin-left: 22px;
         /* margin-bottom: -5px; */
     }
+
     .p1 .im1 p {
         margin: 3px 0px 0px 22px
     }
+
     #about .leftBanner h2 {
         font-size: 25px;
     }
+
     #about .leftBanner p {
         font-size: 12px;
         margin: 2px 0 17px 0;
     }
-    #about .rightBanner h2{
+
+    #about .rightBanner h2 {
         padding-top: 25px;
     }
+
     #header .sideMenu i {
         margin-right: -26px;
     }
+
     #header .sideMenu li a {
         margin-left: 27px;
         margin-right: -2px;
     }
-    
+
     #footer .Foot .right input {
         width: 100%;
+    }
+
+
+
+
+    /* Blog page */
+
+    #blog {
+        padding: 78px 0px 0px 31px;
+    }
+
+    #blog .blog-div h1 {
+        font-size: 46px;
     }
 }
 
 
 
-@media only screen and (max-width:525px)
-{
+@media only screen and (max-width:525px) {
     #header .sideMenu li a {
         margin-left: 27px;
         margin-right: -2px;
     }
+
     #about .leftBanner h2 {
         font-size: 25px;
     }
+
     #about .leftBanner p {
         font-size: 12px;
     }
-    #header a img{
+
+    #header a img {
         width: 85px;
         margin-left: -20px;
     }
+
     .row {
         justify-content: flex-start;
     }
+
     #newProduct .text h3 {
         margin-left: 5px;
     }
@@ -446,9 +494,11 @@
     .countdown__item span {
         font-size: 18px;
     }
+
     .countdown__item p {
         font-size: 8px;
     }
+
     .discount__text__title h2 {
         font-size: 44px;
     }
@@ -477,6 +527,7 @@
         position: relative;
         margin-bottom: 20px;
     }
+
     .services__item i {
         font-size: 51px;
     }
@@ -484,36 +535,46 @@
     .services__item h6 {
         font-size: 23px;
     }
+
     .services__item p {
         font-size: 20px;
     }
+
     #newProduct .text ul {
         flex-wrap: wrap;
     }
+
     #newProduct .pro {
         padding-top: 10px;
     }
+
     #newProduct .text h3 {
         padding-bottom: 13px;
     }
+
     #newProduct .text ul li {
         padding: 6px 10px;
     }
+
     #trends .tText {
         padding-left: 65px;
     }
+
     #trends .main-tre .main-pre .t1 .tImg img {
         min-width: 125%;
     }
+
     .discount__text__title {
         text-align: center;
         position: relative;
         /* z-index: 1; */
         margin-bottom: 36px;
     }
+
     #newProduct .text h3 {
         margin-left: 6px;
     }
+
     .p1 {
         padding: 40px 27px;
     }
@@ -522,19 +583,24 @@
         font-size: 32px;
         margin-left: 22px;
     }
+
     .p1 .im1 p {
         margin: 3px 0px 0px 22px
     }
+
     #about .leftBanner h2 {
         font-size: 25px;
     }
+
     #about .leftBanner p {
         font-size: 12px;
         margin: 2px 0 17px 0;
     }
-    #about .rightBanner h2{
+
+    #about .rightBanner h2 {
         padding-top: 25px;
     }
+
     #trends h4 {
         font-size: 26px;
     }
@@ -548,17 +614,46 @@
     .services__item i {
         font-size: 40px;
     }
+
     .services__item h6 {
         font-size: 20px;
     }
+
     .services__item p {
         font-size: 18px;
     }
+
     #header .sideMenu i {
         margin-right: -26px;
     }
-    
+
     #footer .Foot .right input {
         width: 100%;
+    }
+
+    
+
+    /* Blog page */
+
+    #blog {
+        padding: 70px 20px 0 20px;
+    }
+
+    #blog .blog-div{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #blog .blog-div .blog-img {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    #blog .blog-text {
+        width: 100%;
+    }
+    #directory{
+        padding: 40px 26px;
     }
 }
