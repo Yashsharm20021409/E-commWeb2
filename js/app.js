@@ -23,3 +23,12 @@ const foc = document.getElementById('megaMenu')
 openList.addEventListener('click' , ()=>{
     foc.classList.add('activeMenu');
 });
+
+
+
+// blog page
+
+function changeImg(a)
+{
+    document.getElementById("eh").src = a.src;
+}
