@@ -177,7 +177,7 @@
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 106px 0 0 15px;
         transition: 0.4s;
-        overflow-y: auto;
+        /* overflow-y: auto; */
     }
 
     #list.active {
