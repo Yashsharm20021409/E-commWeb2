@@ -82,18 +82,19 @@
 
 
     #shutOpen {
-        margin-left: 89px;
+        margin-left: 81px;
         margin-top: 10px;
         display: block;
     }
 
     #shutOpen2 {
-        margin-left: 26px;
+        margin-left: 19px;
         margin-top: 10px;
         display: block;
     }
 
     #shutOpen3 {
+        margin-right: 25px;
         margin-left: 92px;
         margin-top: 10px;
         display: block;
@@ -103,8 +104,8 @@
         height: 0px;
         float: right;
         position: relative;
-        top: 16px;
-        left: -188px;
+        top: 20px;
+        left: -198px;
         float: right;
         font-size: 22px;
         display: block;
@@ -114,8 +115,8 @@
         height: 0px;
         float: right;
         position: relative;
-        top: 16px;
-        left: -188px;
+        top: 18px;
+        left: -216px;
         float: right;
         font-size: 22px;
         display: block;
@@ -126,8 +127,8 @@
         height: 0px;
         float: right;
         position: fixed;
-        top: 552px;
-        left: 35px;
+        top: 514px;
+        left: 32px;
         font-size: 22px;
     }
 
