@@ -36,16 +36,18 @@ if (On) {
         pad.classList.add('padd');
         console.log("Added");
 
+
+        // Wosmen close
+
+        MegaMenu1.classList.remove('megaMenuJs');
+        pad1.classList.remove('padd');
+        console.log("removed");
+
         // Shop close
         MegaMenu2.classList.remove('megaMenuJs');
         pad2.classList.remove('padd');
         console.log("removed");
 
-        // Women close
-
-        MegaMenu1.classList.remove('megaMenuJs');
-        pad1.classList.remove('padd');
-        console.log("removed");
     });
 }
 

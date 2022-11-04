@@ -126,10 +126,11 @@
         display: block;
         height: 0px;
         float: right;
-        position: fixed;
+        position: relative;
         top: 514px;
-        left: 32px;
+        left: -128px;
         font-size: 22px;
+        top: -1258px;
     }
 
     #openMenu {
@@ -318,7 +319,7 @@
 
     .megaMenuJs {
         opacity: 1;
-        height: 46vh;
+        height: 49vh;
         margin-top: 19px;
     }
 

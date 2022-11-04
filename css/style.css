@@ -172,7 +172,7 @@ body {
     position: absolute;
     left: 0;
     top: 241%;
-    background-color: #fff;
+    /* background-color: #fff; */
     z-index: 200;
     box-shadow: 0 1px 4px rgba(0, 0, 0, .15);
     -webkit-transition-duration: .3s;
@@ -190,7 +190,7 @@ body {
     position: absolute;
     left: 145;
     top: 241%;
-    background-color: #fff;
+    /* background-color: #fff; */
     z-index: 200;
     box-shadow: 0 1px 4px rgba(0, 0, 0, .15);
     -webkit-transition-duration: .3s;
@@ -208,7 +208,7 @@ body {
     position: absolute;
     left: 0;
     top: 241%;
-    background-color: #fff;
+    /* background-color: #fff; */
     z-index: 200;
     box-shadow: 0 1px 4px rgba(0, 0, 0, .15);
     -webkit-transition-duration: .3s;
@@ -269,7 +269,7 @@ body {
     display: inline-block;
     /* float: left; */
     padding: 15px;
-    border-right: 1px solid #f2f4f8;
+    /* border-right: 1px solid #f2f4f8; */
 }
 
 .megamenu1 .list1,.megamenu2 .list1 {
@@ -277,12 +277,12 @@ body {
     display: inline-block;
     /* float: left; */
     padding: 15px;
-    border-right: 1px solid #f2f4f8;
+    /* border-right: 1px solid #f2f4f8; */
 }
 
 .megamenu .list1 .title ,.megamenu1 .list1 .title,.megamenu2 .list1 .title{
     font-size: 14px;
-    border-bottom: 1px solid #f2f4f8;
+    /* border-bottom: 1px solid #f2f4f8; */
     padding: 6px 0px;
     /* font-size: 17px; */
     font-weight: 600;
