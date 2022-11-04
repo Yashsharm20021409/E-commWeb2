@@ -85,6 +85,25 @@ body {
 
 /* Header-section */
 
+#shutOpen{
+    display: none;
+}
+#shutClose{
+    display: none;
+}
+#shutOpen2{
+    display: none;
+}
+#shutClose2{
+    display: none;
+}
+#shutOpen3{
+    display: none;
+}
+#shutClose3{
+    display: none;
+}
+
 #openMenu{
     display: none;
 }
@@ -213,17 +232,17 @@ body {
 #list img:focus .megamenu-item:focus .megamenu, .megamenu-item:hover .megamenu{
     top: 241%;
     visibility: visible;
-    opacity: 1;
+    /* opacity: 1; */
 }
 .megamenu-item:focus .megamenu1, .megamenu-item:hover .megamenu1{
     top: 241%;
     visibility: visible;
-    opacity: 1;
+    /* opacity: 1; */
 }
 .megamenu-item:focus .megamenu2, .megamenu-item:hover .megamenu2{
     top: 241%;
     visibility: visible;
-    opacity: 1;
+    /* opacity: 1; */
 }
 
 .megamenu1,.megamenu2{

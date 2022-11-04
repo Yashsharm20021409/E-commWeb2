@@ -80,6 +80,57 @@
 
 @media only screen and (max-width:985px) {
 
+
+    #shutOpen {
+        margin-left: 89px;
+        margin-top: 10px;
+        display: block;
+    }
+
+    #shutOpen2 {
+        margin-left: 26px;
+        margin-top: 10px;
+        display: block;
+    }
+
+    #shutOpen3 {
+        margin-left: 92px;
+        margin-top: 10px;
+        display: block;
+    }
+
+    #shutClose {
+        height: 0px;
+        float: right;
+        position: relative;
+        top: 16px;
+        left: -188px;
+        float: right;
+        font-size: 22px;
+        display: block;
+    }
+
+    #shutClose2 {
+        height: 0px;
+        float: right;
+        position: relative;
+        top: 16px;
+        left: -188px;
+        float: right;
+        font-size: 22px;
+        display: block;
+    }
+
+    #shutClose3 {
+        display: block;
+        height: 0px;
+        float: right;
+        position: fixed;
+        top: 552px;
+        left: 35px;
+        font-size: 22px;
+    }
+
     #openMenu {
         display: block;
         font-size: 21px;
@@ -177,7 +228,8 @@
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 106px 0 0 15px;
         transition: 0.4s;
-        /* overflow-y: auto; */
+        overflow-y: auto;
+        overflow-x: hidden;
     }
 
     #list.active {
@@ -199,50 +251,90 @@
 
     .megamenu-item {
         display: flex;
+        /* flex-direction: column; */
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     #list img {
-        margin: auto;
+        /* margin: auto;
         margin-left: 197px;
         margin-top: 8px;
         /* font-size: 38px; */
         height: 14px;
+        display: none;
     }
-
-    /* .Open1 img,
-    .Open2 img {
-        margin-left: 224px;
-    } */
-
 
     .megamenu2,
     .megamenu1 {
         opacity: 0;
-        visibility: hidden;
-        /* position: absolute; */
-        /* position: relative; */
-        /* left: 67px; */
-        /* top: 147%; */
-        /* background-color: #fff; */
+        visibility: unset;
         z-index: 200;
         /* box-shadow: 0 1px 4px rgba(0, 0, 0, .15); */
         -webkit-transition-duration: .3s;
         transition-duration: .3s;
-        /* width: 100%; */
-        /* max-width: 100%; */
-        /* height: 63vh; */
-        justify-content: space-between;
-        /* display: flex; */
-        /* margin: auto; */
-        margin-left: -219px;
-        margin-top: 38px;
+        width: 240%;
+        /* width: 93%; */
+        height: 0vh;
+        position: unset;
+        border-radius: 7px;
     }
 
-    /* .megamenu-item:focus .megamenu2.activeMenu, .megamenu-item:hover .megamenu2.activeMenu{
-        top: 241%;
-        visibility: visible;
+    /* #megamenuItem{
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .megamenu .list1 {
+        width: 100%;
+        display: inline-block;
+        /* float: left; */
+        padding: 15px;
+        /* border-right: 1px solid #f2f4f8; */
+    }
+
+    .megamenu {
+        opacity: 0;
+        visibility: unset;
+        z-index: 200;
+        /* box-shadow: 0 1px 4px rgba(0, 0, 0, .15); */
+        -webkit-transition-duration: .3s;
+        transition-duration: .3s;
+        width: 92%;
+        /* width: 93%; */
+        height: 0vh;
+        position: unset;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+    }
+
+    /* #shutOpen{
+        padding-left: 135px;
+    } */
+
+    .megaMenuJs {
         opacity: 1;
-    }  */
+        height: 46vh;
+        margin-top: 19px;
+    }
+
+    .megaMenuJsremove {
+        opacity: 0;
+        height: 0vh;
+        margin-top: 0px;
+    }
+
+    .padd {
+        /* padding-top: 420px; */
+        margin-top: 40px;
+    }
+
+    /* .megamenu-item:focus .megamenu1, .megamenu-item:hover .megamenu1 {
+        opacity: unset;
+    } */
 
     .services {
         padding-top: 40px;
@@ -631,7 +723,7 @@
         width: 100%;
     }
 
-    
+
 
     /* Blog page */
 
@@ -639,7 +731,7 @@
         padding: 70px 20px 0 20px;
     }
 
-    #blog .blog-div{
+    #blog .blog-div {
         flex-direction: column;
         align-items: flex-start;
     }
@@ -653,7 +745,8 @@
     #blog .blog-text {
         width: 100%;
     }
-    #directory{
+
+    #directory {
         padding: 40px 26px;
     }
 }
